@@ -1,4 +1,15 @@
 <!-- WriteupsPage.vue -->
 <template>
-  <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  <IntroSection />
 </template>
+
+<script>
+import IntroSection from "../components/IndexPage/IntroSection.vue"
+
+export default {
+  components: {
+    IntroSection
+  }
+}
+
+</script>
