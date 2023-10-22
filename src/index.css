@@ -39,3 +39,7 @@ body {
   background-color: var(--dark-text);
   opacity: 60%;
 }
+
+.section-wrapper {
+  @apply mb-[40px];
+}

@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-[46px] mt-[22px]">
+    <div class="section-wrapper">
         <div class="flex justify-between items-center">
             <h1 class="font-extrabold text-2xl">Francyn Abcd Macadangdang</h1>
             <ul class="flex justify-center items-center gap-x-[13px]">
@@ -59,7 +59,6 @@
                 </li>
             </ul>
         </div>
-
         <p class="font-semibold text-xs leading-[18px] mt-[28px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis convallis augue, sed fermentum arcu
             blandit sed. Nulla in turpis eu arcu pretium pharetra. Donec iaculis tincidunt sapien
@@ -68,7 +67,6 @@
 </template>
 
 <script>
-
 export default {
     computed: {
         isLightMode() {
