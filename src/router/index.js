@@ -1,14 +1,8 @@
 // index.js
-import { createRouter, createWebHistory } from 'vue-router';
-import AboutPage from '../components/AboutPage.vue';
-import ProjectsPage from '../components/ProjectsPage.vue';
-import WriteupsPage from '../components/WriteupsPage.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import SamplePage from "../components/IndexPage.vue";
 
-const routes = [
-  { path: '/', component: AboutPage },
-  { path: '/projects', component: ProjectsPage },
-  { path: '/writeups', component: WriteupsPage },
-];
+const routes = [{ path: "/", component: SamplePage }];
 
 const router = createRouter({
   history: createWebHistory(),
