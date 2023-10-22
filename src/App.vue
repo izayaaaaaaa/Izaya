@@ -4,8 +4,9 @@ import MainNavVue from './components/Navigation/MainNav.vue';
 
 <template>
   <div id="app">
-    <div class="flex justify-center py-[67px] min-h-scree">
-      <div class="w-[35%]">
+    <div class="flex justify-center py-[67px] min-h-screen"
+      :class="['content-container', $store.state.mode === 'dark' ? 'dark' : '']">
+      <div class="xl:w-[35%] lg:w-[50%] md:w-[70%] w-[85%]">
         <header>
           <MainNavVue />
         </header>
