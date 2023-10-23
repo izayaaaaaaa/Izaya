@@ -6,7 +6,12 @@ export default {
       secondary: "#454138",
       light: "#FFFFFD",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        courier: ["Courier New", "monospace"],
+        "courier-prime": ["Courier Prime", "monospace"],
+      },
+    },
   },
   plugins: [],
 };

@@ -59,7 +59,7 @@
                 </li>
             </ul>
         </div>
-        <p class="font-semibold text-xs leading-[18px] mt-[28px]">
+        <p class="font-semibold text-xs leading-[18px] mt-[28px] font-courier">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis convallis augue, sed fermentum arcu
             blandit sed. Nulla in turpis eu arcu pretium pharetra. Donec iaculis tincidunt sapien
         </p>

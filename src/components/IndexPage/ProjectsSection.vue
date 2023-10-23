@@ -6,7 +6,7 @@
                     <ul class="flex flex-col gap-y-[20px]">
                         <li v-for="(key, index) in data" :key="index" class="flex">
                             <div class="w-[44%] pr-[15px]">
-                                <span class="font-normal text-xs">{{ key.date }}</span>
+                                <span class="font-normal text-xs font-courier">{{ key.date }}</span>
                             </div>
                             <div class="w-[56%]">
                                 <div class="flex items-center gap-x-[7px] mb-[5px]">
@@ -45,8 +45,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <p class="font-normal text-xs">{{ key.description }}</p>
-                                <p class="font-normal text-[11px] mt-[11px]">{{ key.techStack.join(' • ') }}</p>
+                                <p class="font-normal text-xs font-courier">{{ key.description }}</p>
+                                <p class="font-normal text-[11px] mt-[11px] font-courier-prime">{{ key.techStack.join(' • ') }}</p>
                             </div>
                         </li>
                     </ul>

@@ -2,7 +2,7 @@
     <div class="section-wrapper">
         <SectionLayout title="Skills">
             <div class="flex gap-x-[27px]">
-                <div class="">
+                <div class="font-courier">
                     <ul class="flex flex-col gap-y-[3px]">
                         <li v-for="(key, index) in Object.keys(data)" :key="index" class="font-bold uppercase text-[11px]">
                             {{ key }}
@@ -11,7 +11,7 @@
                 </div>
                 <div class="">
                     <ul class="flex flex-col gap-y-[3px]">
-                        <li v-for="(key, index) in Object.keys(data)" :key="index" class="text-xs font-normal">
+                        <li v-for="(key, index) in Object.keys(data)" :key="index" class="text-xs">
                             {{ data[key].join(', ') }}
                         </li>
                     </ul>
