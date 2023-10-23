@@ -3,12 +3,16 @@
     "date": "September 2023 - Present",
     "title": "Lorem Ipsum",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis convallis augue, sed fermentum arcu blandit sed. Nulla in turpis eu arcu  pretium pharetra. Donec iaculis tincidunt sapien eget commodo. Ut facilisis a felis id viverra. ",
-    "techStack": ["React", "PHP", "MySQL"]
+    "techStack": ["React", "PHP", "MySQL"],
+    "repo": "",
+    "live": ""
   },
   {
     "date": "August 2023 - October 2023",
     "title": "Lorem Ipsum",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis convallis augue, sed fermentum arcu blandit sed. Nulla in turpis eu arcu  pretium pharetra. Donec iaculis tincidunt sapien eget commodo. Ut facilisis a felis id viverra. ",
-    "techStack": ["React", "PHP", "MySQL"]
+    "techStack": ["React", "PHP", "MySQL"],
+    "repo": "",
+    "live": ""
   }
 ]

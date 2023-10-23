@@ -1,0 +1,6 @@
+{
+  "languages": ["PHP", "Java", "Python", "Javascript", "Typescript"],
+  "frameworks": ["Laravel", "Flask", "Express", "React", "Vue"],
+  "storage": ["MySQL", "MongoDB", "PostgreSQL"],
+  "others": ["Git", "AWS", "Linux", "Docker", "Kubernetes"]
+}
