@@ -1,29 +1,19 @@
-<!-- App.vue -->
-<template>
-  <div id="app">
-    <MainNavbar />
-    <router-view />
-  </div>
-</template>
-
-<script>
-  import MainNavbar from "./components/MainNavbar.vue";
-  import "./colors.css";
-
-  export default {
-    components: {
-      MainNavbar
-    }
-  };
+<script setup>
+import MainNavVue from './components/Navigation/MainNav.vue';
 </script>
 
-<style>
-  body {
-    background-color: var(--background);
-    color: var(--foreground);
-  }
-
-  .app {
-    min-height: 100vh; /* ensure at least viewport height */
-  }
-</style>
+<template>
+  <div id="app">
+    <div class="flex justify-center py-[67px] min-h-screen"
+      :class="['content-container', $store.state.mode === 'dark' ? 'dark' : '']">
+      <div class="xl:w-[35%] lg:w-[50%] md:w-[70%] w-[85%]">
+        <header>
+          <MainNavVue />
+        </header>
+        <main>
+          <router-view />
+        </main>
+      </div>
+    </div>
+  </div>
+</template>
