@@ -1,8 +1,12 @@
 <!-- IndexPage/ProjectsSection.vue -->
+<!-- TODO:
+        1. (refactor) the flex gap... classes can be removed and reduce the amount of nested div 
+-->
 <template>
     <div class="section-wrapper">
         <SectionLayout title="Projects">
             <div class="flex gap-x-[27px]">
+                <!-- ques: what's the point of gap-x-27 here if there's only one div class? -->
                 <div class="">
                     <ul class="flex flex-col gap-y-[20px]">
                         <li v-for="(key, index) in data" :key="index" class="flex">
@@ -11,7 +15,7 @@
                             </div>
                             <div class="w-[56%]">
                                 <div class="flex items-center gap-x-[7px] mb-[5px]">
-                                    <h3 class="font-bold text-sm ">{{ key.title }}</h3>
+                                    <h3 class="font-bold text-sm">{{ key.title }}</h3>
                                     <div class="flex gap-x-[4px]">
                                         <a href="" target="_blank" rel="noreferrer">
                                             <svg v-if="isLightMode" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
