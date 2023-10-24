@@ -1,9 +1,11 @@
-
+<!-- IndexPage.vue -->
 <template>
   <MainLayout>
     <IntroSection />
     <SkillsSection />
     <ProjectsSection />
+    <!-- Certifications Section -->
+    <!-- Education Section -->
   </MainLayout>
 </template>
 
@@ -15,11 +17,10 @@ import ProjectsSection from "../components/IndexPage/ProjectsSection.vue"
 
 export default {
   components: {
+    MainLayout,
     IntroSection,
     SkillsSection,
-    MainLayout,
     ProjectsSection
   }
 }
-
 </script>

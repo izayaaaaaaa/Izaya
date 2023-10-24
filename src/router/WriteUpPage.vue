@@ -1,7 +1,7 @@
-<!-- BlogPage.vue -->
+<!-- WriteupPage.vue -->
 <template>
     <MainLayout>
-        <h1 className="text-3xl font-bold underline">Blog Page</h1>
+        <h1 className="text-3xl font-bold underline">Writeup Page</h1>
     </MainLayout>
 </template>
 

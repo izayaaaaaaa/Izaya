@@ -1,3 +1,4 @@
+<!-- Navigation/NavigationLink.vue -->
 <template>
     <li class="py-[5px] px-[13px]" :class="textClass">
         <router-link :to="to">{{ text }}</router-link>
