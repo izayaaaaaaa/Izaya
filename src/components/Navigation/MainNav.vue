@@ -1,4 +1,5 @@
 <!-- Navigation/MainNav.vue -->
+<!-- FIXME: (style) ModeSwitcher should have the same distance from the horizontal line as the NavigationLink elements -->
 <template>
     <nav class="flex justify-between border-b-black border-opacity-50 border-solid border-b-[1px]">
         <ul class="flex font-medium">
