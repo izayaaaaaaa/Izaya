@@ -1,3 +1,4 @@
+<!-- IndexPage/SkillsSection.vue -->
 <template>
     <div class="section-wrapper">
         <SectionLayout title="Skills">

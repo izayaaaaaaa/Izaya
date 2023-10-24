@@ -1,5 +1,6 @@
+<!-- Navigation/NavigationLink.vue -->
 <template>
-    <li class="py-[5px] px-[13px]" :class="linkClasses">
+    <li class="py-[5px] px-[13px]" :class="textClass">
         <router-link :to="to">{{ text }}</router-link>
     </li>
 </template>
@@ -9,14 +10,16 @@ export default {
     props: {
         to: String,
         text: String,
-        mode: String,
     },
     computed: {
-        linkClasses() {
+        textClass() {
+            const isLightMode = this.$store.state.mode === 'light';
+            const isDarkMode = this.$store.state.mode === 'dark';
+            const isCurrentRoute = this.$route.path === this.to;
             return {
-                'text-opacity-60': this.$route.path !== '/',
-                'text-secondary': this.mode === 'light',
-                'text-light': this.mode === 'dark',
+                'text-secondary': isLightMode,
+                'text-light': isDarkMode,
+                'text-opacity-60': !isCurrentRoute,
             };
         },
     },
